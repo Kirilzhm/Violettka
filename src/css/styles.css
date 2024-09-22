@@ -7,37 +7,113 @@ body{
     background-color: #282828;
 }
 
-h2{
+h2, h3{
     color: #a22bff;
 }
 
+h3{
+    font-size: 30px;
+}
 
-.text-container{
-    width: 400px;
-    height: 160px;
-    border: 1px solid #808080;
+.div-container{
+    margin-top: 100px;
+    padding: 10px;
+    border: 2px solid #a22bff;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #a22bff;
+    width: 310px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-    margin-top: 30px;
-    background-color: #303030;
+    box-shadow: 0 0 15px#a22bff, 0 0 20px #b35cff;
 }
 
-.first-text {
-    padding-left: 80px;
+.first-text{
+    padding-left: 30px;
 }
 
-.second-text {
-    padding-left: 25px;
+.div-small-question{
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    padding-top: 25px;
+    padding-left: 55px;
+    border: 2px solid #a22bff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px#a22bff, 0 0 20px #b35cff;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.thiersd-text{
-    padding-left: 190px;
-    padding-right: 200px;
+.btn-yes, .btn-no {
+    background-color: transparent;
+    color: #a22bff;
+    border: 2px solid #a22bff;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 15px#a22bff, 0 0 20px #b35cff;
+    font-size: 15px;
 }
 
-.fourth-text{
-    padding-left: 15px;
+.buttons{
+    margin-top: 50px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 105px;
+}
+
+.not-to-be {
+    display: none;
+}
+
+.not-to-touch{
+    background-color: transparent;
+    border: 2px solid #a22bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.not-touch{
+    color: #a22bff;
+    text-decoration: none;
+}
+
+.questions{
+    border: 2px solid #a22bff;
+    box-shadow: 0 0 15px#a22bff, 0 0 20px #b35cff;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-quesion{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.button-questions{
+    background-color: transparent;
+    border: 2px solid #a22bff;
+    box-shadow: 0 0 5px#a22bff, 0 0 8px #b35cff;
+    border-radius: 5px;
+    color: #a22bff;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.blue{
+    margin-right: 35px;
+}
+
+.karie{
+    margin-right: 35px;
 }
